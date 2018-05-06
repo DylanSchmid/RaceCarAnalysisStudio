@@ -46,8 +46,9 @@ public class RCASMainViewController {
 		System.out.println(myRaceCar_1.toString());
 		System.out.println(myRaceCar_2.toString());
 		// show balance, grip, control and stability values of the cars.
-		this.printRaceCarCorneringValues(myRaceCar_1, corneringUtil);
-		this.printRaceCarCorneringValues(myRaceCar_2, corneringUtil);
+		//TODO
+		//this.printRaceCarCorneringValues(myRaceCar_1, corneringUtil);
+		//this.printRaceCarCorneringValues(myRaceCar_2, corneringUtil);
 
 		ObservableList<Series<Number, Number>> dataList_1 = corneringUtil.generateMMMChartData(myRaceCar_1);
 		mainChart.getData().addAll(dataList_1);
