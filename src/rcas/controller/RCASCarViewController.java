@@ -8,10 +8,10 @@ import java.awt.*;
 public class RCASCarViewController {
 
     @FXML private TextField nameCar;
-    @FXML private TextField
-    @FXML private TextField
-    @FXML private TextField
-    @FXML private TextField
+    @FXML private TextField flWheel;
+    @FXML private TextField frWheel;
+    @FXML private TextField rlWheel;
+    @FXML private TextField rrWheel;
 
     @FXML
     public void saveNew(){

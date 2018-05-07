@@ -7,17 +7,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="610.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RCASCarView">
+<AnchorPane prefHeight="610.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rcas.controller.RCASCarViewController">
    <children>
       <Button layoutX="431.0" layoutY="556.0" mnemonicParsing="false" text="%createButton" />
       <Button layoutX="14.0" layoutY="556.0" mnemonicParsing="false" text="%advancedButton" />
       <ImageView fitHeight="385.0" fitWidth="241.0" layoutX="135.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
       <Label layoutX="124.0" layoutY="31.0" text="%carNameLabel" />
       <TextField layoutX="202.0" layoutY="26.0" />
-      <TextField layoutX="22.0" layoutY="142.0" prefHeight="31.0" prefWidth="63.0" />
-      <TextField layoutX="22.0" layoutY="451.0" prefHeight="31.0" prefWidth="63.0" />
-      <TextField layoutX="420.0" layoutY="142.0" prefHeight="31.0" prefWidth="63.0" />
-      <TextField layoutX="413.0" layoutY="451.0" prefHeight="31.0" prefWidth="63.0" />
+      <TextField layoutX="22.0" layoutY="142.0" prefHeight="31.0" prefWidth="63.0" fx:id="flWheel"/>
+      <TextField layoutX="22.0" layoutY="451.0" prefHeight="31.0" prefWidth="63.0" fx:id="frWheel"/>
+      <TextField layoutX="420.0" layoutY="142.0" prefHeight="31.0" prefWidth="63.0" fx:id="rlWheel"/>
+      <TextField layoutX="413.0" layoutY="451.0" prefHeight="31.0" prefWidth="63.0" fx:id="rrWheel"/>
       <Label layoutX="22.0" layoutY="105.0" text="%flLabel" />
       <Label layoutX="421.0" layoutY="106.0" text="%frLabel" />
       <Label layoutX="23.0" layoutY="421.0" text="%rlLabel" />
