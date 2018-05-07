@@ -3,6 +3,7 @@ import java.util.ResourceBundle;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
@@ -15,8 +16,8 @@ public class RCASMain extends Application {
 		ResourceBundle resourceBundle = ResourceBundle.getBundle("RCASResources");
 		fxmlLoader.setResources(resourceBundle);
 
-		GridPane mainPane = (GridPane) fxmlLoader.load();
-		Scene mainScene = new Scene(mainPane, 800, 600);
+		AnchorPane mainPane = (AnchorPane) fxmlLoader.load();
+		Scene mainScene = new Scene(mainPane, 418, 685);
 		primaryStage.centerOnScreen();
 		primaryStage.setTitle(resourceBundle.getString("applicationTitle"));
 		primaryStage.setScene(mainScene);
